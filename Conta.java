@@ -33,6 +33,12 @@ public abstract class Conta implements InterfaceConta {
 
     }
 
+    @Override
+    public void solicitarEmprestimo(double valor) {
+        saldo += valor;
+
+    }
+
     public int getAgencia() {
         return agencia;
     }

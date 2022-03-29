@@ -5,5 +5,7 @@ public interface InterfaceConta {
 
     void transferir(double valor, Conta contaDestino);
 
+    void solicitarEmprestimo(double valor);
+
     void imprimirExtrato();
 }
